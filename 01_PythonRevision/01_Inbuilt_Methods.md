@@ -1,5 +1,18 @@
 # Python Built-in Functions
 
+## Backup
+In case you forgot any functions for any ds or module use dir().
+```python
+dir(set())
+
+import itertools
+dir(itertools)
+
+# for checking built-in functions
+import builtins
+print(dir(builtins))
+```
+
 ## Conversions
 ```python
 var = abs(-1) # Converts negative to positive
@@ -91,4 +104,18 @@ x = round(5.76543,2) # Rounds a number, can enter the precision eg here 5.77
 
 ```python
 eval('print(5)') # Evaluate the expression eg. in this case print
+```
+
+```python
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+matrix = [list(row) for row in zip(*matrix)] # Transposing a matrix
+
+# For rotating matrix, transpose it and just reverse every row
+matrix = [row[::-1] for row in matrix]
+
+# For spiral matrix, print the row, pop it, transpose and reverse it.
+
+while matrix:
+    print(*matrix.pop(0), end = " ")
+    matrix = [list(row) for row in zip(*matrix)][::-1]
 ```
