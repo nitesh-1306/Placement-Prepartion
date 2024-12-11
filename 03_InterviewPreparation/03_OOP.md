@@ -102,6 +102,20 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
   4. Interface Segregation Principle
   5. Dependency Inversion Principle
 
+### 3.5 Difference Between Fully and Purely Object-Oriented Languages
+
+| **Aspect**                     | **Fully OOP Language**                     | **Purely OOP Language**               |
+|--------------------------------|---------------------------------------------|---------------------------------------|
+| **Primitive Types**            | May include non-objects (e.g., `int` in Java). | Everything is an object (e.g., numbers in Smalltalk). |
+| **Standalone Functions**       | May allow procedural code (e.g., static methods in Java). | Does not allow standalone functions; everything must belong to a class or object. |
+| **Control Structures**         | Procedural constructs (e.g., `if`, `switch`) may exist. | Control structures are implemented as object methods. |
+| **Example Languages**          | Java, C#, Python                            | Smalltalk, Ruby, Eiffel               |
+
+#### Summary
+- A **fully OOP language** balances pure OOP principles with practicality, allowing some exceptions.
+- A **purely OOP language** adheres strictly to the OOP paradigm, with no exceptions.
+
+
 ## 4. Common Interview Questions
 
 ### Theoretical Questions
