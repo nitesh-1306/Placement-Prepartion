@@ -4,7 +4,7 @@
 
 ### 1.1 What is OOP?
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code. The primary goals of OOP are:
-- Modularity
+- Modularity: Breaking a system into modules.
 - Reusability
 - Data protection and abstraction
 - Flexibility and maintainability
@@ -87,20 +87,20 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 ### 3.2 Constructor Types
 - Default Constructor
 - Parameterized Constructor
-- Copy Constructor
+- Copy Constructor: Constructor that initializes an object using another object of the same class
 - Static Constructor (in some languages)
 
 ### 3.3 Composition vs Inheritance
-- Composition: "Has-a" relationship
-- Inheritance: "Is-a" relationship
+- Composition: "Has-a" relationship `One class uses another as part of its functionality but doesn't inherit from it`
+- Inheritance: "Is-a" relationship `Subclass inherits the behavior and attributes of the parent class`
 
 ### 3.4 Design Principles
 - SOLID Principles:
-  1. Single Responsibility Principle
-  2. Open-Closed Principle
-  3. Liskov Substitution Principle
-  4. Interface Segregation Principle
-  5. Dependency Inversion Principle
+  1. Single Responsibility Principle : `should only have one job or responsibility`
+  2. Open-Closed Principle: `Classes, modules, functions should be open for extension but closed for modification`
+  3. Liskov Substitution Principle: `Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program`
+  4. Interface Segregation Principle: `A client should not be forced to depend on interfaces it does not use`
+  5. Dependency Inversion Principle: `High-level modules should not depend on low-level modules, but both should depend on abstractions`
 
 ### 3.5 Difference Between Fully and Purely Object-Oriented Languages
 
